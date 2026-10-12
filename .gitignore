@@ -144,3 +144,15 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Build and dist outputs
+dist/
+**/dist/
+
+# .NET artifacts
+bin/
+obj/
+**/bin/
+**/obj/
+*.user
+*.suo
